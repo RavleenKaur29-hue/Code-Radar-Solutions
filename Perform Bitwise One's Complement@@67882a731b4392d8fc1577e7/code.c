@@ -5,6 +5,6 @@ int main()
     printf("");
     scanf("%d",&a);
     result = ~a;
-    printf("~%d\n",result)
+    printf("%d\n",result);
     return 0;
 }
