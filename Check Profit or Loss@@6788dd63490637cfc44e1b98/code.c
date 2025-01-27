@@ -6,19 +6,19 @@ int main()
     scanf("%d",&cost_price,&selling_price);
     if(cost_price > selling_price)
     {
-        printf("Profit");
+        printf("Profit\n");
     }
     else if(cost_price < selling_price)
     {
-        printf("Loss");
+        printf("Loss\n");
     }
     else if(cost_price == selling_price)
     {
-        printf("No Profit No Loss");
+        printf("No Profit No Loss\n");
     }
     else 
     {
-        printf("Invalid");
+        printf("Invalid\n");
     }
 
     return 0;
