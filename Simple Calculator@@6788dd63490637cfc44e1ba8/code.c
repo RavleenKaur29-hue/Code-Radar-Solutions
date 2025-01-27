@@ -17,15 +17,8 @@ int main()
             printf("%d\n",a*b);
             break;
         case '/':
-            if(b==0)
-            {
-                printf("Error");
-                break;
-            }
-            else 
-            {
                 printf("%d\n",a/b);
-            }
+                break;
         default:
                 printf("Error\n");
 
