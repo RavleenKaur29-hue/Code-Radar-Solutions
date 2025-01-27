@@ -4,7 +4,7 @@ int main()
     char ch;
     printf("");
     scanf("%c",&ch);
-    if(int(ch))
+    if(isdigit(ch))
     {
         printf("Digit\n");
     }
