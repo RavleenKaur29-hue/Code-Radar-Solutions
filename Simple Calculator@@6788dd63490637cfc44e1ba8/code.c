@@ -9,19 +9,25 @@ int main()
     {
         case '+':
             printf("%d\n",a+b);
+            break;
         case '-':
             printf("%d\n",a-b);
+            break;
         case '*':
             printf("%d\n",a*b);
+            break;
         case '/':
             if(b==0)
             {
                 printf("Error");
+                break;
             }
             else 
             {
                 printf("%d\n",a/b);
             }
+        default:
+                printf("Error\n");
 
     }
     return 0;
