@@ -12,13 +12,9 @@ int main()
     {
         printf("Negative\n");
     }
-    else if(a==0)
-    {
-        printf("Zero\n");
-    }
     else 
     {
-        printf("Invalid\n")
+        printf("Zero\n");
     }
     return 0;
 }
