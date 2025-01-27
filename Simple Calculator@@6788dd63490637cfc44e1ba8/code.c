@@ -7,31 +7,31 @@ int main()
     switch(a)
     {
         case '+':
-            printf("Addition: %d\n",b+c);
+            printf("%d\n",b+c);
             break;
 
         case '-':
-            printf("Subtraction: %d\n",b-c);
+            printf("%d\n",b-c);
             break;
 
         case '*':
-            printf("Multiplication: %d\n",b*c);
+            printf("%d\n",b*c);
             break;
 
         case '/':
             if(c!=0)
             {
-                printf("Division: %d\n",b/c);
+                printf("%d\n",b/c);
                 break;
             }
             else 
             {
-                printf("Invalid\n");
+                printf("Error\n");
                 break;
             }
 
         default:
-        printf("Invalid\n");
+        printf("Error\n");
     }
     return 0;
 }
