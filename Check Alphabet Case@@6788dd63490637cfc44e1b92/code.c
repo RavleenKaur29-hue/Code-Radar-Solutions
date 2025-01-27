@@ -2,9 +2,10 @@
 int main()
 {
     char ch;
-    printf("");
-    scanf("%c",&ch);
-    if(ch >= 'A'  && ch <= 'Z')
+    printf("Enter a character: "); 
+    scanf("%c", &ch);
+    
+    if(ch >= 'A' && ch <= 'Z')
     {
         printf("Uppercase\n");
     }
@@ -14,7 +15,7 @@ int main()
     }
     else 
     {
-        printf("Not an alphabet charater\n");
+        printf("Not an alphabet character\n");
     }
     return 0;
 }
