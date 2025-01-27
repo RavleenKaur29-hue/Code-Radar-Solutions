@@ -12,13 +12,9 @@ int main()
     {
         printf("Loss\n");
     }
-    else if(selling_price == cost_price)
+    else (selling_price == cost_price)
     {
         printf("No Profit No Loss\n");
-    }
-    else 
-    {
-        printf("Invalid\n");
     }
 
     return 0;
