@@ -6,11 +6,11 @@ int main()
     scanf("%d",&temp);
     if(a<=0)
     {
-        printf("Freezing");
+        printf("Freezing\n");
     }
     else 
     {
-        printf("Abovr Freezing");
+        printf("Above Freezing\n");
     }
     return 0;
 }
