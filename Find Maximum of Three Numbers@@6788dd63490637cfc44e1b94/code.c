@@ -12,13 +12,10 @@ int main()
     {
         printf("%d\n",&b);
     }
-    else if(c>a && c>a)
+    else 
     {
         printf("%d\n",&c);
     }
-    else 
-    {
-        printf("Invalid\n");
-    }
+    
     return 0;
 }
