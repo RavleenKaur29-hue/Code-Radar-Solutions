@@ -8,13 +8,13 @@ int main()
     switch(op)
     {
         case '+':
-            printf("%d\n",a+b);
+            printf("%d\n", a + b);
             break;
         case '-':
-            printf("%d\n",a-b);
+            printf("%d\n", a - b);
             break;
         case '*':
-            printf("%d\n",a*b);
+            printf("%d\n", a * b);
             break;
         case '/':
             if(b != 0)
