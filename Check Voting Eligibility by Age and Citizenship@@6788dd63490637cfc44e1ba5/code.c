@@ -8,7 +8,7 @@ int main()
     {
         printf("Eligible");
     }
-    else(age<18 && citizenship == 0)
+    else 
     {
         printf("Not Eligible");
     }
