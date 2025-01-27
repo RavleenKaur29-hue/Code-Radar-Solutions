@@ -12,7 +12,7 @@ int main()
     {
         printf("Loss\n");
     }
-    else if(cost_price == selling_price)
+    else if(selling_price == cost_price)
     {
         printf("No Profit No Loss\n");
     }
