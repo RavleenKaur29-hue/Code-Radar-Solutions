@@ -3,6 +3,8 @@ int main()
 {
     int a,b;
     char op;
+    printf("");
+    scanf("%d %d %c",&a,&b,&op);
     switch(op)
     {
         case '+':
@@ -18,7 +20,7 @@ int main()
             printf("%d\n",a/b);
             break;
         default:
-            printf("Error");    
+            printf("Error\n");    
     }
     return 0;
 }
