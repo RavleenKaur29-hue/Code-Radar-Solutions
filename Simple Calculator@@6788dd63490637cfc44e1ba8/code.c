@@ -5,34 +5,34 @@ int main() {
     char op;
 
     // Prompt for user input
-    printf("Enter two integers and an operator (+, -, *, /): ");
+    printf("");
     
     // Input two integers and operator
     if (scanf("%d %d %c", &a, &b, &op) != 3) {
-        printf("Invalid input\n");
+        printf("Error\n");
         return 1;
     }
 
     // Perform operation based on operator
     switch (op) {
         case '+':
-            printf("Result: %d\n", a + b);
+            printf("%d\n", a + b);
             break;
         case '-':
-            printf("Result: %d\n", a - b);
+            printf("%d\n", a - b);
             break;
         case '*':
-            printf("Result: %d\n", a * b);
+            printf("%d\n", a * b);
             break;
         case '/':
             if (b != 0) {
-                printf("Result: %.2f\n", a / (float)b);
+                printf("%.2f\n", a / (float)b);
             } else {
                 printf("Error: Division by zero\n");
             }
             break;
         default:
-            printf("Error: Invalid operator\n");
+            printf("Error\n");
     }
 
     return 0;
