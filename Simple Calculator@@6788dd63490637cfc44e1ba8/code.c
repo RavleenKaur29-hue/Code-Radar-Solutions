@@ -19,7 +19,7 @@ int main()
         case '/':
             if(b!=0)
             {
-            printf("%.0f\n",a/(float)b);
+            printf("%d\n",a/(float)b);
             }
             else 
             {
