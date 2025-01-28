@@ -13,7 +13,7 @@ int main()
         case '-':
             printf("%d\n",a-b);
             break;
-        case '+':
+        case '*':
             printf("%d\n",a*b);
             break;
         case '/':
