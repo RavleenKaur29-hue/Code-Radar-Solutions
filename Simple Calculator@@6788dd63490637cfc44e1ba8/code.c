@@ -31,7 +31,5 @@ int main()
     }
     return 0;
 }
-ChatGPT said:
 
-ChatGPT
 
