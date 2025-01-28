@@ -42,8 +42,7 @@ int main()
         case 12:
             printf("31\n");
             break;
-        default:
-            printf("Invalid\n");
+       
     }
     return 0;
 }
