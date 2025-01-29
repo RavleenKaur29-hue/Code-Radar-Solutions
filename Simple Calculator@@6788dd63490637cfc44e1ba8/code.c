@@ -23,11 +23,11 @@ int main()
             }
             else 
             {
-                printf("Error\n");
+                printf("error\n");
             }
             break;
         default:
-            printf("Error\n");    
+            printf("error\n");    
     }
     return 0;
 }
