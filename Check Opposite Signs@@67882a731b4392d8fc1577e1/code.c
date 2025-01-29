@@ -7,11 +7,11 @@ int main()
     //if((a > 0 && b < 0) || (b > 0 && a < 0))
     if(a^b<1)
     {
-        printf("True\n");
+        printf("False\n");
     }
     else 
     {
-        printf("False\n");
+        printf("True\n");
     }
     return 0;
 }
