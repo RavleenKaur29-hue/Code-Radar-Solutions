@@ -4,7 +4,8 @@ int main()
     int a;
     printf("");
     scanf("%d",&a);
-    if(a<0)
+    a = a>>31;
+    if(a&1==1)
     {
         printf("Set\n");
     }
