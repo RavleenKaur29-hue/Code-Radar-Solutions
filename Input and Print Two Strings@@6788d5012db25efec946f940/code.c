@@ -1,6 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    printf("You entered: Hello and World")
+    char a,b;
+    printf("");
+    scanf("%c %c",&a,&b);
+    printf("You entered: %c and %c",a,b);
     return 0;
 }
