@@ -9,5 +9,6 @@ int main()
         a = a>>1;
         i++;
     }
+    printf("%d",i);
     return 0;
 }
