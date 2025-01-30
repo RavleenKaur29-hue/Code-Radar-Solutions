@@ -4,7 +4,7 @@ int main()
     int a,b;
     printf("");
     scanf("%d %d",&a,&b);
-    a = a>>b-1;
+    a = a>>b;
     if(a&1==1)
     {
         printf("Set\n");
