@@ -5,7 +5,7 @@ int main()
     scanf("%d",&a);
     while((a&1)==0)
     {
-        a=a>>1;
+        a=a<<1;
         i++;
     }
     printf("%d",i);
