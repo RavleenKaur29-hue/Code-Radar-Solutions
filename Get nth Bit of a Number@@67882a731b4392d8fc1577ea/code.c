@@ -7,11 +7,11 @@ int main()
     a=a<<b;
     if(a&1==1)
     {
-        printf("Set\n");
+        printf("1\n");
     }
     else
     {
-        printf("Not Set\n");
+        printf("0\n");
     }
     return 0;
 }
