@@ -1,15 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int a,i;
+    int a,i=0;
     scanf("%d",&a);
-    i = 0;
     while((a==0)==1)
     {
-        n=n<<1;
+        a=a<<1;
         i++;
     }
     printf("%d",i);
-
     return 0;
 }
