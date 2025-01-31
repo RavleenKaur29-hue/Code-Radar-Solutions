@@ -10,6 +10,6 @@ int main() {
         n /= 2;               
         place *= 10;          
     }
-    printf("Binary: %lld\n", binary);
+    printf("Binary: %11d\n", binary);
     return 0;
 }
