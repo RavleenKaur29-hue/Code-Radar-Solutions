@@ -1,13 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int a,i=0;
+    int a;
     scanf("%d",&a);
-    while((a&0)==0)
-    {
-        a=a<<1;
-        i++;
-    }
-    printf("%d",i);
+    a = ((a>>31)&1==0)
+    printf("%d\n",a);
+    
     return 0;
 }
