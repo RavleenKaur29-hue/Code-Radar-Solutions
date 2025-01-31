@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a;
+    int a,b;
     scanf("%d",&a);
-    a = ((a>>31)&1==1)
-    printf("%d\n",a);
+    b = ((a>>31)&1==1)
+    printf("%d\n",b);
     return 0;
 }
