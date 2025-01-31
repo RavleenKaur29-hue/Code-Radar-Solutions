@@ -1,12 +1,16 @@
 #include <stdio.h>
 
-void decimalToBinary(int decimal) {
+int main() {
+    int decimal;
     int binary[32];
     int i = 0;
 
+    printf("Enter a decimal number: ");
+    scanf("%d", &decimal);
+
     if (decimal == 0) {
         printf("Binary: 0\n");
-        return;
+        return 0;
     }
 
     while (decimal > 0) {
@@ -20,15 +24,6 @@ void decimalToBinary(int decimal) {
         printf("%d", binary[j]);
     }
     printf("\n");
-}
-
-int main() {
-    int decimal;
-
-    printf("Enter a decimal number: ");
-    scanf("%d", &decimal);
-
-    decimalToBinary(decimal);
 
     return 0;
 }
