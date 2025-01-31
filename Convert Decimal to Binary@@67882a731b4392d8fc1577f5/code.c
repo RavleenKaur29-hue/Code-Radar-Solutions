@@ -1,15 +1,28 @@
 #include <stdio.h>
+
 int main() {
-    int n, remainder;
-    long long binary = 0, place = 1;  
+    int n, binary[32], i = 0;
+
     printf("Enter a decimal number: ");
     scanf("%d", &n);
-    while (n > 0) {
-        remainder = n % 2;    
-        binary += remainder * place; 
-        n /= 2;               
-        place *= 10;          
+
+    if (n == 0) {
+        printf("Binary: 0\n");
+        return 0;
     }
-    printf("Binary: %11d\n", binary);
+
+    while (n > 0) {
+        binary[i] = n % 2;  // Store remainder (0 or 1)
+        n /= 2;             // Divide number by 2
+        i++;
+    }
+
+    printf("Binary: ");
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]); // Print in reverse order
+    }
+    printf("\n");
+
     return 0;
 }
+
