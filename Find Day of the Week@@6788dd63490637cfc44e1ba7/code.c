@@ -2,7 +2,7 @@
 int main()
 {
     int day;
-    printf("");
+    //printf("");
     scanf("%d",&day);
     switch(day)
     {
@@ -29,7 +29,6 @@ int main()
             break;
         default:
             printf("Invalid");
-
     }
     return 0;
 }
