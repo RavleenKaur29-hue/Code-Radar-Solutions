@@ -1,7 +1,18 @@
 #include<stdio.h>
 int main()
 {
-printf(31);
-printf(30);
-return 0;
+    int n,count=0,num;
+    scanf("%d",&num);
+    if(num==0)
+    {
+        printf("32");
+    }
+    n=1<<31;
+    while((num & n)==0)
+    {
+        count++;
+        n>>=1;
+    }
+    printf("%d",count);
+    return 0;
 }
