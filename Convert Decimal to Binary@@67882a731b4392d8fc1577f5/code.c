@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    unsigned long long a,num=0,i;
+    unsigned long long a,num=0;
     scanf("%d",&a);
-    for(i=31;i>=0;i--)
+    for(int i=31;i>=0;i--)
     {
         if(a&(1<<i))
         {
