@@ -3,11 +3,11 @@ int main()
 {
     int n,i;
     scanf("%d",&n);
-    if (n<=1)
-    {
-      printf("Not Prime\n");
-      return 0;
-    }
+    // if (n<=1)
+    // {
+    //   printf("Not Prime\n");
+    //   return 0;
+    // }
     i = 2;
     while(i<=(n/2))
     {
