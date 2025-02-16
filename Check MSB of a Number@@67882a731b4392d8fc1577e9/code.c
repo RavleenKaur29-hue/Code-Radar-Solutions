@@ -2,10 +2,10 @@
 int main()
 {
     int a;
-    printf("");
+    //printf("");
     scanf("%d",&a);
     a = a>>31;
-    if(a&1==1)
+    if(a&1)
     {
         printf("Set\n");
     }
