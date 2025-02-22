@@ -9,13 +9,13 @@ int main()
     }
     else if(n==2)
     {
-        printf("* *");
+        printf("* *\n");
         printf("*");
     }
     else if(n==3)
     {
-        printf("* * *");
-        printf("* *");
+        printf("* * *\n");
+        printf("* *\n");
         printf("*");
     }
      else if(n==4)
