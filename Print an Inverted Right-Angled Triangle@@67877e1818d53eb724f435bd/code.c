@@ -20,37 +20,37 @@ int main()
     }
      else if(n==4)
     {
-        printf("* * * *");
-        printf("* * *");
-        printf("* *");
-        printf("*");
+        printf("* * * *\n");
+        printf("* * *\n");
+        printf("* *\n");
+        printf("*\n");
     }
      else if(n==5)
     {
-        printf("* * * * *");
-        printf("* * * *");
-        printf("* * *");
-        printf("* *");
-        printf("*");
+        printf("* * * * *\n");
+        printf("* * * *\n");
+        printf("* * *\n");
+        printf("* *\n");
+        printf("*\n");
         
     }
      else if(n==6)
     {
-        printf("* * * * * *");
-        printf("* * * * *");
-        printf("* * * *");
-        printf("* * *");
-        printf("* *");
+        printf("* * * * * *\n");
+        printf("* * * * *\n");
+        printf("* * * *\n");
+        printf("* * *\n");
+        printf("* *\n");
         printf("*");
     }
      else if(n==7)
     {
-        printf("* * * * * * *");
-        printf("* * * * * *");
-        printf("* * * * *");
-        printf("* * * *");
-        printf("* * *");
-        printf("* *");
+        printf("* * * * * * *\n");
+        printf("* * * * * *\n");
+        printf("* * * * *\n");
+        printf("* * * *\n");
+        printf("* * *\n");
+        printf("* *\n");
         printf("*");
     }
     return 0;
