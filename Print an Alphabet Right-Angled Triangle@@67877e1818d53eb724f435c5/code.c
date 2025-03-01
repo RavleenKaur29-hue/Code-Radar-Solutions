@@ -3,7 +3,7 @@ int main()
 {
     char ch;
     scanf("%d",&ch);
-    for(char i='A';i<='Z';i++)
+    for(char i='A';i<=ch;i++)
     {
         for(char j='A';j<=i;j++)
         {
