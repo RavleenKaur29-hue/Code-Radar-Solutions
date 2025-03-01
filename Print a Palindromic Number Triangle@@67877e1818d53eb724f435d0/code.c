@@ -13,7 +13,12 @@ int main()
      {
        printf("%d",j);
      }
+     for(int k=i-1;k>=1;k--)
+     {
+        printf("%d",k);
+     }
      printf("\n");
+
     }
     return 0;
 }
