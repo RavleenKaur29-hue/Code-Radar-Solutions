@@ -11,6 +11,7 @@ int main()
           printf("%d ",num);
           num = 1 - num;
         }
+        printf("\n");
     }
     return 0;
 }
