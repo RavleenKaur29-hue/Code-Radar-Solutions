@@ -5,11 +5,10 @@ int main()
     scanf("%d",&n);
     for(int i=n;i>=1;i--)
     {
-        char ch;
-        scanf("%c",ch);
-        for(char ch='A';ch<='Z';ch++)
+        char ch='A';
+        for(int j=1;j<=i;j++)
         {
-            printf("%c ",ch);
+            printf("%c ",ch++);
         }
         printf("\n");
     }
