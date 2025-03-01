@@ -3,12 +3,18 @@ int main()
 {
     int n,r,ans=0;
     scanf("%d",&n);
-    while(n>0)
+    for(i=1;i<=n;i++)
     {
-        r = n%10;
+       while(n>0)
+    {
+        r = i%10;
         ans = ans*10+r;
-        n = n/10;
+        n = i/10;
     }
-    printf("%d\n",ans);
+    for(int j=1;j<=2*i-1;j++)
+    {
+        printf("%d",i);
+    }
+    }
     return 0;
 }
