@@ -2,12 +2,12 @@
 int main()
 {
     int n;
-    char ch='A';
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {
       for(ch='A';ch<'A'+i;ch++)
       {
+       char ch='A';
        printf("%c ",ch);
        ch++;
       }
