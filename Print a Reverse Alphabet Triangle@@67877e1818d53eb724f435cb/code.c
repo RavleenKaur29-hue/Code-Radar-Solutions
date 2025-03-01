@@ -7,7 +7,7 @@ int main()
     {
         char ch;
         scanf("%c",ch);
-        for(char ch='A';ch<='Z',ch++)
+        for(char ch='A';ch<='Z';ch++)
         {
             printf("%c ",ch);
         }
