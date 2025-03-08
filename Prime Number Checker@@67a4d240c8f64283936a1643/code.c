@@ -26,7 +26,7 @@ int isPrime(int num)
    }
    else 
    {
-    printf("0n");
+    printf("0\n");
    }
 }
 int main()
