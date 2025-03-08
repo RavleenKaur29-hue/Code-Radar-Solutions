@@ -4,12 +4,12 @@ int isPrime(int num)
     if(num<=1)
    {
     printf("Not Prime\n");
-    return ;
+    return 0;
    }
    if(num==2)
    {
     printf("Prime\n");
-    return ;
+    return 1;
    }
    int is_prime = 1;
    for(int i=2;i<=num/2;i++)
@@ -22,11 +22,11 @@ int isPrime(int num)
    }
    if(is_prime)
    {
-    printf("Prime\n");
+    printf("1\n");
    }
    else 
    {
-    printf("Not Prime\n");
+    printf("0n");
    }
 }
 int main()
