@@ -28,7 +28,7 @@ int main() {
         } else {
             printf("0\n");
         }
-        fflush(stdout); // Flush the output buffer
+        fflush(stdout); 
     }
 
     return 0;
