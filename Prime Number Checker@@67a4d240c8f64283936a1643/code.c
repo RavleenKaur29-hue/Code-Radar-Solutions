@@ -1,4 +1,8 @@
 #include<stdio.h>
+void isPrime(int num)
+{
+    
+}
 int main()
 {
     int t;
