@@ -10,7 +10,7 @@ void bubbleSort(int *arr,int n)
         {
            temp = arr[count];
            arr[count] = arr[count+1];
-           arr[c+1] = temp;
+           arr[count+1] = temp;
         }
     }
    }
