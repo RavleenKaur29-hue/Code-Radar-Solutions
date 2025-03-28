@@ -1,5 +1,5 @@
 //#include<stdio.h>
-void bubbleSort(int arr,int n)
+void bubbleSort(int *arr,int n)
 {
    int pass,count,temp;
    for(pass=0 ; pass<n-1 ; pass++)
@@ -15,7 +15,7 @@ void bubbleSort(int arr,int n)
     }
    }
 }
-void printArray(int arr , int n)
+void printArray(int *arr , int n)
 {
     int i;
     for(i=0 ; i<n ; i++)
