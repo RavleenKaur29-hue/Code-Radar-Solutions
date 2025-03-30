@@ -15,4 +15,9 @@ void sortArray(int arr[], int n) {
 int kthSmallest(int arr[], int n, int k) {
     sortArray(arr, n);  // Sorting the array
     return arr[k - 1];  // Return k-th smallest element
+    for (int i = 0; i < n ; i++){
+    if(k!=arr[i]){
+        return -1;
+}
+    }
 }
