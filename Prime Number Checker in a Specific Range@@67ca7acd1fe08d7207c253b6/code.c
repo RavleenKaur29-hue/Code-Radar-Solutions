@@ -1,4 +1,4 @@
-int isPrime(int a , int b)
+int isPrime(int n)
 {
     if(n<2)
     {
