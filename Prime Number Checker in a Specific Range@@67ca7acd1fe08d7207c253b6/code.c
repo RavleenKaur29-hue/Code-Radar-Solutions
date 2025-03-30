@@ -10,8 +10,8 @@ int isPrime(int n)
         {
             return 0;
         }
-        return 1;
     }
+    return 1;
 }
 void printPrimesInRange(int a , int b){
     for(int i=a;i<=b;i++)
