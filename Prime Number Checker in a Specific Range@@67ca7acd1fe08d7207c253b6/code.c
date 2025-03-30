@@ -22,7 +22,7 @@ void printPrimesInRange(int a , int b){
         }
         else 
         {
-            printf("No prime numbrs");
+            printf("No prime numbers");
         }
     }
 }
